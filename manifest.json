@@ -1,0 +1,20 @@
+{
+    "name":"Easy Translate",
+    "version":"0.0.1",
+    "description":"Easy Translate make easy to translate english text to hindi without changing the tab.",
+    "manifest_version":3,
+    "action":{
+        "default_popup":"popup.html"
+    },
+    "background": {
+        "service_worker": "eventPage.js"
+      },
+    "permissions":[
+        "contextMenus",
+        "notifications",
+        "storage"  
+    ],
+    "icons":{
+        "64":"icon64.png"
+    }
+}
